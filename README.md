@@ -25,4 +25,5 @@ Python, LightGBM, scikit-learn, pandas, NumPy, matplotlib. Se usó IA generativa
 - `plot_arsenal.py`, `plot_physics_results.py`: figuras.
 - `build_simulador.py`, `simulador_template.html`, `index.html`: simulador.
 - `stuffplus_core.py`, `stuffplus_eval.py`: utilidades de features de tunneling y verificación de fuentes.
-- `dashboard_grid_v2.json`: malla agregada que usa `build_simulador.py` para generar el simulador.
+- `data.py`, `features.py`, `build_physics_features.py`: carga de datos y construcción de variables.
+- > Nota: `build_simulador.py` genera el simulador a partir de una malla agregada de resultados (`dashboard_grid_v2.json`), que ya está incrustada en `index.html`; el archivo JSON no se incluye por separado.
