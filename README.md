@@ -26,5 +26,3 @@ Python, LightGBM, scikit-learn, pandas, NumPy, matplotlib. Se usó IA generativa
 - `build_simulador.py`, `simulador_template.html`, `index.html`: simulador.
 - `stuffplus_core.py`, `stuffplus_eval.py`: utilidades de features de tunneling y verificación de fuentes.
 - `dashboard_grid_v2.json`: malla agregada que usa `build_simulador.py` para generar el simulador.
-> Nota: algunos scripts importan `stuffplus_core` y `stuffplus_eval` (utilidades internas del equipo), que no se incluyen en este repositorio. El simulador publicado (`index.html`) ya incluye incrustada la malla de resultados.
-
